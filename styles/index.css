@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+	font-family: stanberry;
+	src: url('Timeless.ttf');
+}
+
+#head{
+	height: 18vw;
+	/*border: 1px solid red;*/
+}
+#black{
+	color: white;
+	font-size: 4vw;
+	font-family: stanberry;
+	position: absolute;
+	width: 100%; 
+	height: 12vw;
+	background: black;
+	float: left;
+}
+#name{
+	font-size: 4vw;
+	margin-left: 16vw;
+	margin-top: 2vw;
+}
+#email{
+	font-size: 2vw;
+	position: absolute;
+	margin-left: 17vw;
+	font-style: italic;
+}
+#photo{
+	position: absolute;
+	border: .4vw solid black;
+	height: 14.6vw;
+	width: 14.6vw;
+	border-radius: 7.5vw;
+	margin-left: 70vw;
+	margin-top: 2vw;
+	background: white;
+}
+#photo img{
+	position: absolute;
+	height: 14vw;
+	width: 14vw;
+	border: .3vw solid white;
+	float: left;
+	border-radius: 7.15vw;
+}
+#links{
+	position: absolute;
+	margin-top: 12vw;
+	margin-left: 12vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+#links a{
+	padding-right: 10vw;
+	padding-left: 10vw;
+	/*padding-top: .5vw;
+	padding-bottom: .5vw;*/
+	text-decoration: none;
+	color: #5e5e5e;
+	font-family: stanberry;
+	font-size: 1.7vw;
+}
+#first_link{
+	border-right: 1px solid #5e5e5e;
+}
+#links :hover{
+	color: green;
+	font-style: underline;
+}
+#about{
+	width: 70vw;
+	/*border: 1px solid red;*/
+	margin-left: 12.4vw;
+	font-family: stanberry;
+	font-size: 1.7vw;
+	color: #5e5e5e;
+	padding: 2vw;
+	padding-bottom: .5vw;
+	text-align: justify;
+}
+.top{
+	/*border: 1px solid red;*/
+	width: 70vw;
+	font-family: stanberry;
+	font-size: 2.4vw;
+	color: white;
+	background: black;
+	padding: .5vw;
+	margin-top: 5vw;
+	margin-left: 14vw;
+	font-weight: bold;
+}
+.entry{
+	width: 70vw;
+	margin-left: 14vw;
+	/*border: 1px solid red;*/
+	margin-top: 2vw;
+}
+.entry img{
+	width: 6vw;
+	height: 6vw;
+	border: .3vw solid black;
+	border-radius: 3.3vw;
+	position: absolute;
+}
+.title{
+	font-family: stanberry;
+	font-size: 2vw;
+	color: black;
+	margin-left: 9vw;
+}
+.time{
+	font-family: stanberry;
+	font-size: 1.5vw;
+	color: green;
+	margin-left: 9vw;
+}
+.points{
+	font-family: stanberry;
+	font-size: 1.5vw;
+	color: #5e5e5e;
+	margin-left: 9vw;
+}
+.points a{
+	text-decoration: none;
+	color: green;
+}
+.skill_box{
+	width: 30vw;
+	/*border: 1px solid blue;*/
+}
+#skill_box2{
+	float: right;
+	margin-top: -10.3vw;
+}
+.skill_head{
+	border-bottom: .2vw solid green;
+	padding: .2vw;
+	font-family: stanberry;
+	font-size: 2vw;
+	color: green;
+}
+.skill_point{
+	font-family: stanberry;
+	font-size: 1.5vw;
+	color: #5e5e5e;
+}
+#por1 p{
+	margin-left: 1vw;
+}
+#por2 p{
+	margin-left: 1vw;
+}
+#hob1{
+	width: 58vw;
+}
+#hob1 p{
+	margin-left: 1vw;
+	text-align: justify;
+}
+.image{
+	border: .3vw solid black;
+	border-radius: .5vw;
+	float: right;
+	margin-right: 16vw;
+	width: 9vw;
+	height: 9vw;
+}
+#img1{
+	margin-top: -14vw;
+}
+#img2{
+	margin-top: -7vw;
+}
+#foot{
+	width: 100%;
+	height: 5vw;
+	background: black;
+	margin-top: 5vw;
+}

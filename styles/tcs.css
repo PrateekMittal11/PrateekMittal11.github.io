@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+	font-family: stanberry;
+	src: url('Timeless.ttf');
+}
+
+#head{
+	background: black;
+	color: white;
+	font-family: stanberry;
+	font-size: 3vw;
+	text-align: center;
+	font-weight: bold;
+	padding: 1vw;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+#content{
+	color: #5e5e5e;
+	font-family: stanberry;
+	font-size: 1.5vw;
+	text-align: justify;
+	width: 70vw;
+	margin-left: 14vw;
+	margin-top: 10vw;
+	position: absolute;
+	z-index: 1;
+}
+#content h3{
+	color: black;
+}
+#content b{
+	color: black;
+}
+img{
+	width: 40vw;
+	margin-left: 15vw;
+}
+.caption{
+	color: green;
+	font-family: stanberry;
+	font-size: 1.5vw;
+	text-align: center;
+	padding-bottom: 4vw;
+	width: 40vw;
+	margin-left: 15vw;
+}
+#footer{
+	width: 100%;
+	height: 4vw;
+	margin-top: 275vw;
+	background: black;
+	position: absolute;
+}
+#link{
+	width: 15vw;
+	padding: 1vw;
+	text-align: center;
+	color: white;
+	font-family: stanberry;
+	font-size: 1.5vw;
+	background: black;
+	margin-left: 40vw;
+}
+#footer a{
+	text-decoration: none;
+}

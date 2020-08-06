@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+	font-family: stanberry;
+	src: url('Timeless.ttf');
+}
+
+#head{
+	height: 60vw;
+	/*border: 1px solid red;*/
+}
+#black{
+	color: white;
+	font-size: 4vw;
+	font-family: stanberry;
+	position: absolute;
+	width: 100%; 
+	height: 45vw;
+	background: black;
+	float: left;
+}
+#name{
+	font-size: 7vw;
+	margin-top: 3vw;
+	text-align: center;
+}
+#email{
+	font-size: 4vw;
+	text-align: center;
+}
+#photo{
+	position: absolute;
+	border: .8vw solid black;
+	height: 35.2vw;
+	width: 35.2vw;
+	border-radius: 18vw;
+	margin-left: 32vw;
+	margin-top: 20vw;
+	background: white;
+}
+#photo img{
+	position: absolute;
+	height: 34vw;
+	width: 34vw;
+	border: .6vw solid white;
+	float: left;
+	border-radius: 17.3vw;
+}
+#links{
+	position: absolute;
+	margin-top: 50vw;
+	margin-left: 1.2vw;
+	/*border: 1px solid red;*/
+}
+#links a{
+	padding-right: 8vw;
+	padding-left: 8vw;
+	padding-top: 2.5vw;
+	padding-bottom: 2.5vw;
+	text-decoration: none;
+	color: #5e5e5e;
+	font-family: stanberry;
+	font-size: 4.2vw;
+}
+#second_link{
+	margin-left: 28vw;
+}
+#links :hover{
+	color: green;
+}
+#about{
+	width: 70%;
+	/*border: 1px solid red;*/
+	margin-left: 10vw;
+	font-family: stanberry;
+	font-size: 5vw;
+	color: #5e5e5e;
+	padding: 5vw;
+	padding-bottom: 2vw;
+	text-align: justify;
+}
+.top{
+	/*border: 1px solid red;*/
+	width: 90vw;
+	font-family: stanberry;
+	font-size: 4.4vw;
+	color: white;
+	background: black;
+	padding: 1vw;
+	margin-top: 10vw;
+	margin-left: 4vw;
+}
+.entry{
+	width: 90vw;
+	margin-left: 4vw;
+	/*border: 1px solid red;*/
+	margin-top: 5vw;
+}
+.entry img{
+	width: 12vw;
+	height: 12vw;
+	border: .8vw solid black;
+	border-radius: 6.8vw;
+	position: absolute;
+}
+.title{
+	font-family: stanberry;
+	font-size: 5vw;
+	color: black;
+	margin-left: 15vw;
+}
+.time{
+	font-family: stanberry;
+	font-size: 4vw;
+	color: green;
+	margin-left: 15vw;
+}
+.points{
+	font-family: stanberry;
+	font-size: 4vw;
+	color: #5e5e5e;
+	margin-left: 15vw;
+}
+.points a{
+	text-decoration: none;
+	color: green;
+}
+.skill_box{
+	width: 70vw;
+	margin-left: 8vw;
+	/*border: 1px solid red;*/
+	margin-top: 4vw;
+}
+.skill_head{
+	border-bottom: .5vw solid green;
+	padding: .5vw;
+	font-family: stanberry;
+	font-size: 5vw;
+	color: green;
+}
+.skill_point{
+	font-family: stanberry;
+	font-size: 4vw;
+	color: #5e5e5e;
+}
+#por1 p{
+	margin-left: 1vw;
+}
+#por2 p{
+	margin-left: 1vw;
+}
+#hob1{
+	width: 70vw;
+}
+#hob1 p{
+	margin-left: 2vw;
+	text-align: justify;
+}
+.image{
+	border: .6vw solid black;
+	border-radius: 1vw;
+	float: right;
+	width: 18vw;
+	height: 18vw;
+	margin-right: 5vw;
+}
+#img1{
+	margin-top: -78vw;
+}
+#img2{
+	margin-top: -38vw;
+}
+#foot{
+	width: 100%;
+	height: 10vw;
+	background: black;
+	margin-top: 10vw;
+}
